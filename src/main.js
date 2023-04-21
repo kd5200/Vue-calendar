@@ -3,11 +3,11 @@ import App from './App.vue'
 import vuetify from './plugins/vuetify';
 import VueTextareaAutosize from 'vue-textarea-autosize';
 import { initializeApp } from 'firebase/app';
-import 'firebase/firestore';
+// import 'firebase/firestore';
 // import 'firebase/firestore';
 // import { initializeFirestore } from 'firebase/firestore';
-// import { getAnalytics } from "firebase/analytics";
-import { getFirestore } from 'firebase/firestore/lite';
+import { getAnalytics } from "firebase/analytics";
+import { getFirestore, doc } from 'firebase/firestore';
 
 // import { getAnalytics } from "firebase/compat/analytics";
 
@@ -26,9 +26,11 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-// const analytics = getAnalytics(app);
-export const db = getFirestore(app);
+const analytics = getAnalytics(app);
+const db = getFirestore(app);
+// const calEvents = doc(db, 'calEvents' )
 
+export { analytics, db, doc };
 
 // export { db }
 

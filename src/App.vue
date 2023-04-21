@@ -8,6 +8,8 @@
 
 <script>
 import Calendar from './components/v-Calendar.vue';
+// import { doc, setDoc } from "firebase/firestore"; 
+
 
 export default {
   name: 'App',
