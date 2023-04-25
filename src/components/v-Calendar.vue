@@ -8,10 +8,10 @@
           </v-btn>
           <v-btn outlined class="mr-4" @click="setToday"> Today </v-btn>
           <v-btn fab text small @click="prev">
-            <v-icon small>mdi-chevron-left</v-icon>
+            <v-icon  role="button" aria-hidden="false" small mdi-chevron-left>mdi-chevron-left</v-icon>
           </v-btn>
           <v-btn fab text small @click="next">
-            <v-icon small>mdi-chevron-right</v-icon>
+            <v-icon role="button" aria-hidden="false" small mdi-chevron-right>mdi-chevron-right</v-icon>
           </v-btn>
           <v-toolbar-title>{{ title }}</v-toolbar-title>
           <div class="flex-grow-1"></div>
@@ -19,7 +19,7 @@
             <template v-slot:activator="{ on }">
               <v-btn outlined v-on="on">
                 <span>{{ typeToLabel[type] }}</span>
-                <v-icon right>mdi-menu-down</v-icon>
+                <v-icon role="button" aria-hidden="false" right mdi-menu-down>mdi-menu-down</v-icon>
               </v-btn>
             </template>
             <v-list>
@@ -149,7 +149,7 @@
           <v-card color="grey lighten-4" :width="350" flat>
             <v-toolbar :color="selectedEvent.color" dark>
               <v-btn @click="deleteEvent(selectedEvent.id)" icon>
-                <v-icon>mdi-delete</v-icon>
+                <v-icon aria-hidden="false" mdi-delete>mdi-delete</v-icon>
               </v-btn>
               <v-toolbar-title
                 v-html="selectedEvent.name"

@@ -8,6 +8,7 @@ import { initializeApp } from 'firebase/app';
 // import { initializeFirestore } from 'firebase/firestore';
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore, doc } from 'firebase/firestore';
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
 
 // import { getAnalytics } from "firebase/compat/analytics";
 
