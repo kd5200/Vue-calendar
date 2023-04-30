@@ -1,12 +1,13 @@
 <template>
   <v-row class="fill-height">
+    
     <v-col>
       <v-sheet height="64">
         <v-toolbar flat color="grey">
-          <v-btn color="purple" dark @click.stop="dialog = true">
+          <v-btn color="primary" dark @click.stop="dialog = true">
             New Event
           </v-btn>
-          <v-btn outlined color="purple" class="mr-4" @click="setToday"> Today </v-btn>
+          <v-btn outlined color="primary" class="mr-4" @click="setToday"> Today </v-btn>
           <v-btn fab text small @click="prev">
             <v-icon  role="button" aria-hidden="false" small mdi-chevron-left>mdi-chevron-left</v-icon>
           </v-btn>
