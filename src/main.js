@@ -6,7 +6,8 @@ import { initializeApp } from 'firebase/app';
 
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore, doc } from 'firebase/firestore';
-import 'material-design-icons-iconfont/dist/material-design-icons.css'
+import 'material-design-icons-iconfont/dist/material-design-icons.css';
+import '@mdi/font/css/materialdesignicons.css';
 
 
 

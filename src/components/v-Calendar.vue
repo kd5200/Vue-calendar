@@ -9,10 +9,10 @@
           </v-btn>
           <v-btn outlined color="primary" class="mr-4" @click="setToday"> Today </v-btn>
           <v-btn fab text small @click="prev">
-            <v-icon  role="button" aria-hidden="false" small mdi-chevron-left>mdi-chevron-left</v-icon>
+            <v-icon @click="prev" small>mdi-chevron-left</v-icon>
           </v-btn>
           <v-btn fab text small @click="next">
-            <v-icon role="button" small mdi-chevron-right>mdi-chevron-right</v-icon>
+            <v-icon small @click="next">mdi-chevron-right</v-icon>
           </v-btn>
           <v-toolbar-title>{{ title }}</v-toolbar-title>
           <div class="flex-grow-1"></div>
