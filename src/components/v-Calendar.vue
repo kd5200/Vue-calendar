@@ -3,17 +3,13 @@
     
     <v-col>
       <v-sheet height="64">
-        <v-toolbar flat color="grey">
+        <v-toolbar flat dark>
           <v-btn color="primary" dark @click.stop="dialog = true">
             New Event
           </v-btn>
-          <v-btn outlined color="primary" class="mr-4" @click="setToday"> Today </v-btn>
-          <v-btn fab text small @click="prev">
-            <v-icon @click="prev" small>mdi-chevron-left</v-icon>
-          </v-btn>
-          <v-btn fab text small @click="next">
-            <v-icon small @click="next">mdi-chevron-right</v-icon>
-          </v-btn>
+          <v-btn outlined color="" class="mr-4" @click="setToday"> Today </v-btn>
+          <v-icon @click="prev" fab text medium>mdi-chevron-left</v-icon>
+          <v-icon @click="next" fab text medium>mdi-chevron-right</v-icon>
           <v-toolbar-title>{{ title }}</v-toolbar-title>
           <div class="flex-grow-1"></div>
           <v-menu bottom right>
