@@ -27,3 +27,7 @@ export default {
   }),
 };
 </script>
+
+<!-- as a reminder, if you run into the issue of events not showing on your
+calendar. Go directly into firebase database and manually enter the end date into the collect that recorded
+data abnormally for a quick fix -->
