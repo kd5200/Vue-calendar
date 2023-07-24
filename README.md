@@ -14,7 +14,6 @@ This vue calendar is a simple and customizable calendar component built with Vue
 - Add, edit, and delete events
 - Drag-and-drop events to reschedule
 - Customizable styles and themes
-- Responsive design for various devices
 
 ## My Team Calendar
 
@@ -32,4 +31,4 @@ This vue calendar is a simple and customizable calendar component built with Vue
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVn7jH79C5Z0nBuRy2i53-JCBzXpN2dmzmQw&usqp=CAU" width="200"/>
 
-<img src="https://www.pngegg.com/en/png-euwsd" width="200"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpp4xaRpu40x4jdS_dN3SiC2ylJcM0CCFxfQ&usqp=CAU" width="200"/>
