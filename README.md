@@ -1,12 +1,12 @@
 # Vue Calendar
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
 ## Description
 
-Vue Calendar is a simple and customizable calendar component built with Vue.js. It allows my team to view, create, and manage events and coordinate out time off efficiently.
+I created this calendar app for my team members/coworkers to use. I took on this project so that my team would no longer have to worry about having to use a google calendar spread sheet and repeatedly update the spread sheet formula when a new calendar year starts (screenshot below).
 
-![Vue Calendar Screenshot](screenshot.png)
+**Calendar previously used at work** ![](./Static/images/teamcal.PNG)
+
+This vue calendar is a simple and customizable calendar component built with Vue.js. It allows my team to view, create, and manage events and coordinate out time off efficiently.
 
 ## Features
 
@@ -31,3 +31,5 @@ Vue Calendar is a simple and customizable calendar component built with Vue.js. 
 #
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVn7jH79C5Z0nBuRy2i53-JCBzXpN2dmzmQw&usqp=CAU" width="200"/>
+
+<img src="https://www.pngegg.com/en/png-euwsd" width="200"/>
