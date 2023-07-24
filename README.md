@@ -8,6 +8,8 @@ I created this calendar app for my team members/coworkers to use. I took on this
 
 This vue calendar is a simple and customizable calendar component built with Vue.js. It allows my team to view, create, and manage events and coordinate out time off efficiently.
 
+Lastly, I used google firebase for hosting and database useage to keep things quick and simple.
+
 ## Features
 
 - View monthly, weekly, or daily calendars
@@ -32,3 +34,5 @@ This vue calendar is a simple and customizable calendar component built with Vue
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVn7jH79C5Z0nBuRy2i53-JCBzXpN2dmzmQw&usqp=CAU" width="200"/>
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpp4xaRpu40x4jdS_dN3SiC2ylJcM0CCFxfQ&usqp=CAU" width="200"/>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0pr6X_gV2kiKnqNZQjE2JEMcDV4FTr3y37g&usqp=CAU" width="200"/>
